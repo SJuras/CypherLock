@@ -57,7 +57,8 @@ footer {
   margin-left: 10px;
 }
 
-.btn:hover {
+.btn:hover,
+.cookie-button:hover {
   color: #2ea5d0;
   background: #fff;
 }
@@ -202,7 +203,7 @@ header ul li a:hover {
 /* warning */
 .warning {
   width: 100%;
-  height: 250px;
+  min-height: 250px;
   background-color: #0e3543;
   display: flex;
   justify-content: center;
@@ -828,7 +829,7 @@ box-shadow: 0 0 10px -4px #fff;
   align-items: center;
   background: #0e3543;
   min-width: 345px;
-  height: 200px;
+  min-height: 200px;
   margin: 10px;
   border-radius: 10px;
 }
@@ -866,7 +867,7 @@ box-shadow: 0 0 10px -4px #fff;
   align-items: center;
   background: #2ea5d0;
   min-width: 345px;
-  height: 200px;
+  min-height: 200px;
   margin: 10px;
   border-radius: 10px;
 }
@@ -879,7 +880,7 @@ box-shadow: 0 0 10px -4px #fff;
   align-items: center;
   background: #2ea5d0;
   min-width: 345px;
-  height: 200px;
+  min-height: 200px;
   margin: 10px;
   border-radius: 10px;
 }
@@ -1117,6 +1118,7 @@ footer {
   padding: 50px 32px;
   transition: 400ms;
   text-align: center;
+  z-index: 1000;
 }
 
 .cookie-container.active {
@@ -1421,11 +1423,16 @@ footer {
 
 @media (max-width: 576px){
   header, header.sticky {
-    padding: 20px 25px;
+    padding: 20px;
   }
 
   header .logo {
     font-size: 22px;
+  }
+
+  section {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .banner-main-img img {
