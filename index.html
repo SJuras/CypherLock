@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Secure password generator.">
+  <meta name="keywords" content="password, generator, password generator, secure, secure password">
+  <meta name="author" content="Sarif Design">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="js/main.js" defer></script>
+  <link href="icons/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>CypherLock | Your secure password generator</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/jpg" href="img/favicon.png"/>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+
+<!-- header -->
+<header>
+  <a href="#" class="logo">Cypher<span>Lock</span></a>
+  <div class="toggle" onclick="toggleMenu();"></div>
+  <ul class="menu">
+    <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+    <li><a href="#about" onclick="toggleMenu();">About</a></li>
+    <li><a href="#generator" onclick="toggleMenu();">Generator</a></li>
+    <li><a href="#tips" onclick="toggleMenu();">Tips</a></li>
+    <li><a href="#strength" onclick="toggleMenu();">Tester</a></li>
+    <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+  </ul>
+</header>
+<!-- header END -->
+
+<!-- banner -->
+<section class="banner" id="home">
+
+  <div class="banner-main">
+    <div class="banner-main-title">
+      <h2>Cypher<span>Lock</span></h2>
+      <h1>YOUR SECURE PASSWORD GENERATOR</h1>
+      <a href="#generator" class="btn">Get Password</a>
+      <a href="#about" class="btn dark">Learn More</a>
+    </div>
+    <div class="banner-main-img">
+      <img src="img/logoLarge2.png" alt="cypherlock_logo" />
+    </div>
+  </div>
+
+</section>
+<!-- banner END -->
+
+<!-- popup -->
+<div class="cookie-container">
+  <p>Before using CypherLock and it's services: CypherLock Password Generator and
+    CypherLock Password Strength Tester,
+    please read our <a href="disclaimer.html" class="cookie-link">Disclaimer</a> and
+    <a href="terms.html" class="cookie-link">Terms of Service</a>.
+  </p>
+  <button class="cookie-button">I have read the Disclaimer and Terms of Service</button>
+</div>
+<!-- popup END -->
+
+<!-- warning -->
+<section class="warning">
+  <h2>There is a cyber crime being commited every<br /> 39 seconds.<h2>
+</section>
+<!-- warning END -->
+
+<!-- about -->
+<section class="about" id="about">
+
+  <div class="heading">
+    <div class="heading-content">
+      <div class="heading-icon">
+        <i class="fas fa-info"></i>
+      </div>
+      <div class="heading-title">
+        <h2>About CypherLock</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="content mb-80">
+    <div class="w-50 content-box">
+      <p>
+        There is a cyber crime being commited every 39 seconds,
+        according to the study at the University of Maryland.<br /><br />
+        Passwords are still the most secure way to keep your personal,
+        professional and financial information safe.<br /><br />
+        Complex passwords are harder to crack which makes them more safe.<br /><br />
+        CypherLock will generate a secure password for you.<br /><br />
+        CypherLock is a free to use tool and does not require any registration.
+      </p>
+    </div>
+    <div class="w-50">
+      <div class="image-box">
+        <img src="img/logoLarge3.png" alt="cypherlock-logo" class="img-logo" />
+      </div>
+    </div>
+  </div>
+
+  <div class="heading" id="how-to">
+    <div class="heading-content">
+      <div class="heading-icon">
+        <i class="fas fa-question"></i>
+      </div>
+      <div class="heading-title">
+        <h2>How to use CypherLock</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper">
+
+    <div class="center-line">
+      <a href="#how-to" class="scroll-icon"><i class="fas fa-chevron-up"></i></a>
+    </div>
+
+    <div class="row row-1">
+      <div class="part part-1">
+        <span class="part-num">1</span>
+        <div class="details">
+          <span class="title">Step 1</span>
+        </div>
+        <p>Move the slider to the right or to the left to make your password longer or shorter.</p>
+        <p>Remember: longer passwords are more secure.</p>
+      </div>
+    </div>
+
+    <div class="row row-2">
+      <div class="part part-2">
+        <span class="part-num">2</span>
+        <div class="details">
+          <span class="title">Step 2</span>
+        </div>
+        <p>Click the checkboxes to include uppercase letters, numbers and special characters to your password.</p>
+      </div>
+    </div>
+
+    <div class="row row-1">
+      <div class="part part-1">
+        <span class="part-num">3</span>
+        <div class="details">
+          <span class="title">Step 3</span>
+        </div>
+        <p>Click the GENERATE PASSWORD button to get your secure password.</p>
+      </div>
+    </div>
+
+    <div class="row row-2">
+      <div class="part part-2">
+        <span class="part-num">4</span>
+        <div class="details">
+          <span class="title">Step 4</span>
+        </div>
+        <p>Copy your password and STORE IT SAFELY.</p>
+        <p>Write down your password on a paper or save your password to your password manager.</p>
+        <p>Always store your passwords in a secure place.</p>
+      </div>
+    </div>
+
+    <div class="row row-1">
+      <div class="part part-1">
+        <span class="part-num">5</span>
+        <div class="details">
+          <span class="title">Step 5</span>
+        </div>
+        <p>Use your new password to secure your account.</p>
+        <p>Try the Password Generator bellow to get your secure password now.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="caution">
+    <p><i class="fas fa-exclamation"></i>Please note that CypherLock Password Generator and
+      CypherLock Password Strength Tester will NOT store, memorize or destribute<br />
+      passwords generated by CypherLock Password Generator, and or your own passwords
+      that you submit<br /> for security testing to our CypherLock Password Strength Tester.
+    </p>
+    <p>
+      For further information, please read our <a href="terms.html">Terms of Service</a> and <a href="disclaimer.html">Disclaimer</a>.
+    </p>
+  </div>
+</section>
+<!-- about END -->
+
+<!-- info -->
+<section class="warning info mb-0">
+  <h2>Use the Password Generator below to get your secure password now.<h2>
+</section>
+<!-- info END -->
+
+<!-- generator -->
+<section class="generator" id="generator">
+  <div class="heading">
+    <div class="heading-content">
+      <div class="heading-icon">
+        <i class="fas fa-cogs"></i>
+      </div>
+      <div class="heading-title">
+        <h2>Password Generator</h2>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="generator-content">
+    <!-- <h3 class="section-heading">Password Generator</h3>
+    <h2 class="title">Password Generator</h2> -->
+    <div class="password-display-box">
+      <div class="password-result">
+        <h3 class="password-display" id="passwordDisplay">password</h3>
+      </div>
+      <i class="far fa-copy" onclick="copy();"></i>
+      <span class="tooltiptext">Copy to clipboard</span>
+    </div>
+    <form class="form" id="passwordGeneratorForm">
+      <div class="form-internal">
+        <label for="characterAmountNumber">Number Of Characters</label>
+        <input type="number" min="1" max="50" value="10" id="characterAmountNumber"/>
+      </div>
+      <div class="range-bar">
+        <input type="range" min="1" max="50" value="10" id="characterAmountRange"/>
+      </div>
+
+      <div class="checkmark-box">
+        <label for="includeUppercase">Include Uppercase</label>
+        <input type="checkbox" id="includeUppercase">
+      </div>
+
+      <div class="checkmark-box">
+        <label for="includeNumbers">Include Numbers</label>
+        <input type="checkbox" id="includeNumbers">
+      </div>
+
+      <div class="checkmark-box">
+        <label for="includeSymbols" class="checkbox-container">Include Symbols</label>
+        <input type="checkbox" id="includeSymbols">
+      </div>
+      <div class="button-container">
+        <button type="submit" class="btn">Generate Password</button>
+      </div>
+    </form>
+    <p class="logo">Cypher<span>lock</span></p>
+  </div>
+</div>
+</section>
+<!-- generator END -->
+
+<!-- info -->
+<section class="warning">
+  <h2>Learn about improving your own safety on the Internet.<h2>
+</section>
+<!-- info END -->
+
+<!-- tips -->
+<section class="tips" id="tips">
+    <div class="heading">
+      <div class="heading-content">
+        <div class="heading-icon">
+          <i class="far fa-lightbulb"></i>
+        </div>
+        <div class="heading-title">
+          <h2>Security Tips</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="tips-content">
+
+      <h3> 1. Avoid these password mistakes:</h3>
+
+      <div class="tips-group-1">
+        <div class="tips-group-1-box">
+          <i class="fas fa-times"></i>
+          <p>Avoid trivial passwords like: "god", "letmein" or "master".</p>
+        </div>
+        <div class="tips-group-1-box">
+          <i class="fas fa-times"></i>
+          <p>Avoid using keyboard patterns like: "12345", "qwerty" or "asdf" as your password.</p>
+        </div>
+        <div class="tips-group-1-box">
+          <i class="fas fa-times"></i>
+          <p>Avoid simple keyboard character substitutions, e.g. "daisy" = "fsodx".</p>
+        </div>
+      </div>
+
+      <div class="tips-cut">
+        <h4>These passwords are widely overused and are easy to crack.</h4>
+      </div>
+
+      <h3>2. Be mindful of what you publish on your social media</h3>
+
+      <div class="tips-group-1">
+        <div class="tips-group-1-box">
+          <i class="fas fa-exclamation-triangle"></i>
+          <p><br />Don't use your pet's name as a password.</p>
+        </div>
+        <div class="tips-group-1-box">
+          <i class="fas fa-exclamation-triangle"></i>
+          <p>Don't use names of your spouse, family members or close friends.</p>
+        </div>
+        <div class="tips-group-1-box">
+          <i class="fas fa-exclamation-triangle"></i>
+          <p>Don't include the date of your birth or birth of your spouse or family members to your password.</p>
+        </div>
+      </div>
+
+      <div class="tips-cut">
+        <h4>Be aware that hackers can observe your social media and learn about
+          you based on information you post there.
+        </h4>
+      </div>
+
+      <h3>3. Best practices for passwords:</h3>
+
+      <div class="tips-group-2">
+        <div class="tips-group-2-box">
+          <i class="fas fa-check"></i>
+          <p>Your password can tell a story. Use associations to help you.</p>
+        </div>
+        <div class="tips-group-2-box">
+          <i class="fas fa-check"></i>
+          <p>Make your password personal, something only YOU would know.</p>
+        </div>
+        <div class="tips-group-2-box-long special">
+          <i class="fas fa-check"></i>
+          <p>Remember your password as a sentence. The first letter of each word in
+            a sentence is your password.
+            e.g. if your sentence is: "My neighbour's son, Joffrey,
+            was 16 when he got his first Yamaha dirt bike.",
+            than your password would be: "MnsJw16whghfYdb"</p>
+        </div>
+      </div>
+
+      <h3>4. Manage your passwords:</h3>
+
+      <div class="tips-group-2">
+        <div class="tips-group-2-box">
+          <i class="fas fa-lightbulb"></i>
+          <p>We can't stress this enought: don't use the same password on multiple accounts.</p>
+        </div>
+        <div class="tips-group-2-box">
+          <i class="fas fa-lightbulb"></i>
+          <p>Be careful where you write down your password.</p>
+        </div>
+        <div class="tips-group-2-box-long">
+          <i class="fas fa-lightbulb"></i>
+          <p>
+            Use a secure password manager like <b>1Password</b> or <b>LastPass</b> to store your passwords safely.
+          </p>
+        </div>
+      </div>
+
+      <div class="tips-pics">
+        <div class="tips-pics-box">
+          <div class="tips-pic-box-cont">
+            <img src="img/1password.png" alt="1password" />
+          </div>
+          <div class="tips-pic-box-link">
+            <a href="https://1password.com/" class="btn" target="_blank">visit 1Password<i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+        <div class="tips-pics-box">
+          <div class="tips-pic-box-cont">
+            <img src="img/lastpass.png" alt="Lastpass" />
+          </div>
+          <div class="tips-pic-box-link">
+            <a href="https://www.lastpass.com/" class="btn" target="_blank">visit LastPass<i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+</section>
+<!-- tips END END -->
+
+<!-- read more -->
+<section class="read-more">
+  <p>
+    For more tips on how to improve your online security, please read more about it
+    in our Online Security Tips page:
+  </p>
+  <a href="security.html" class="btn">Online Security Tips <i class="fas fa-chevron-right"></i></a>
+</section>
+<!-- read more END -->
+
+<!-- info -->
+<section class="warning info mb-0">
+  <h2>Test the security of your password with our Password Strength Tester.<h2>
+</section>
+<!-- info END -->
+
+<!-- tester -->
+<section class="tester" id="strength">
+  <div class="heading">
+    <div class="heading-content">
+      <div class="heading-icon">
+        <i class="fas fa-clipboard-check"></i>
+      </div>
+      <div class="heading-title">
+        <h2>Password Strength Tester</h2>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="strength-content">
+    <div class="mb-20">
+      <h5>Type or paste your password in the marked area below</h5>
+      <h5>Password Strength Tester will automatically calculate the strength of your password and suggest how to make your password stronger</h5>
+      <h5>Password Strength Tester will NOT memorize, store or distribute the passwords you submit for testing</h5>
+      <h5>For more information, please read our <a href="disclaimer.html">Disclaimer</a> and  <a href="terms.html">Terms of Service.</a></h5>
+    </div>
+    <h3 class="h3-heading">Password Strength Meter</h3>
+    <div class="strength-meter" id="strength-meter"></div>
+    <h4>Type or Paste Your Password Here:</h4>
+    <div class="tester-input-box">
+      <input type="password" class="password-input" id="password-input" value="password"
+      type="text" aria-labelledby="password tester"/>
+      <i class="fas fa-eye" id="visibility-toggle" onclick="showHide();"></i>
+      <span class="tooltiptext">Hide/Show password</span>
+    </div>
+    <div class="reasons" id="reasons"></div>
+    <p class="logo">Cypher<span>lock</span></p>
+  </div>
+</div>
+</section>
+<!-- tester END -->
+
+<!-- contact -->
+<section class="contact" id="contact">
+  <div class="heading">
+    <div class="heading-content">
+      <div class="heading-icon">
+        <i class="far fa-envelope"></i>
+      </div>
+      <div class="heading-title">
+        <h2>Contact</h2>
+      </div>
+    </div>
+  </div>
+
+  <p class="mb-80">For more information, please contact us</p>
+
+  <div class="content mb-80">
+    <div class="w-50 content-box central">
+      <div class="middle-box">
+        <ul>
+          <li><i class="far fa-envelope"></i>cypherlock@gmail.com</li>
+          <li><i class="fas fa-map-marker-alt"></i>Zagreb, Croatia</li>
+        </ul>
+      </div>
+    </div>
+    <div class="w-50">
+      <div class="image-box">
+        <img src="img/logoLarge2.png" alt="logo" class="img-logo">
+      </div>
+    </div>
+  </div>
+
+  <div class="content mb-40">
+    <div class="w-50 content-box central">
+      <div class="middle-box">
+        <h4>Created by:</h4>
+        <h3 class="mb-40">Sarif Design</h3>
+        <p><i class="far fa-envelope"></i> sarifwebdesign@gmail.com</p>
+        <a href="security.html" class="btn btn-small">Sarif Design <i class="fas fa-chevron-right"></i></a>
+      </div>
+    </div>
+    <div class="w-50">
+      <div class="image-box">
+        <div class="center w-70">
+          <img src="img/sarif.png" alt="logo" class="sarifdesign">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content mb-40">
+    <div class="w-50 content-box central">
+      <div class="middle-box">
+        <h4>Powered by:</h4>
+        <h3 class="mb-40">Thriving-Source</h3>
+        <p><i class="far fa-envelope"></i> thriving-source@gmail.com</p>
+        <a href="security.html" class="btn btn-small">Thriving Source <i class="fas fa-chevron-right"></i></a>
+      </div>
+    </div>
+    <div class="w-50">
+      <div class="image-box">
+        <div class="center w-70">
+          <img src="img/ThrivingSource.png" alt="logo" class="thrivingsource">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- contact END -->
+
+<!-- footer -->
+<footer>
+  <div class="footer-content">
+    <div class="footer-logo footer-box">
+      <div class="footer-logo-text"><a href="#"><span>Cypher</span>Lock</a></div>
+      <p>Created by: Sarif Design 2021.</p>
+      <p>Powered by: Thriving-Source.com</p>
+      <p>Hosted by: Heroku.com</p>
+    </div>
+    <div class="footer-nav footer-box">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="disclaimer.html">Disclaimer</a></li>
+        <li><a href="terms.html">Terms of Service</a></li>
+        <li><a href="security.html">Online Security Tips</a></li>
+        <li><a href="#strength">Tester</a></li>
+      </ul>
+    </div>
+    <div class="footer-social footer-box">
+      <ul>
+        <li>
+          <a href="https://github.com/SJuras"><i class="fab fa-github fa-2x"></i>GitHub</a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-facebook fa-2x"></i>Facebook</a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i>Instagram</a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i>Twitter</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-data footer-box">
+      <p>Copyright &copy; CypherLock 2021.</p>
+      <p><i class="fas fa-envelope"></i>sarifwebdesign@gmail.com</p>
+      <p><i class="fas fa-envelope"></i>thriving-source@gmail.com</p>
+    </div>
+  </div>
+</footer>
+<!-- footer END -->
+
+  <script src="js/popup.js"></script>
+  <script src="js/generator.js"></script>
+  <script src="js/tester.js"></script>
+</body>
+</html>

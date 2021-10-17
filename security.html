@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Secure password generator.">
+  <meta name="keywords" content="password, generator, password generator, secure, secure password">
+  <meta name="author" content="Sarif Design">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="js/main.js" defer></script>
+  <link href="icons/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>CypherLock | Your secure password generator</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/jpg" href="img/favicon.png"/>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+
+  <!-- header -->
+<header>
+  <a href="#" class="logo">Cypher<span>Lock</span></a>
+  <div class="toggle" onclick="toggleMenu();"></div>
+  <ul class="menu">
+      <li><a href="index.html" onclick="toggleMenu();">Home</a></li>
+      <li><a href="index.html#about" onclick="toggleMenu();">About</a></li>
+      <li><a href="index.html#generator" onclick="toggleMenu();">Generator</a></li>
+      <li><a href="index.html#tips" onclick="toggleMenu();">Tips</a></li>
+      <li><a href="index.html#strength" onclick="toggleMenu();">Tester</a></li>
+      <li><a href="index.html#contact" onclick="toggleMenu();">Contact</a></li>
+  </ul>
+</header>
+<!-- header END -->
+
+<section>
+
+  <div class="heading">
+    <div class="heading-content">
+      <div class="heading-icon">
+        <i class="fas fa-check"></i>
+      </div>
+      <div class="heading-title">
+        <h2>Online Security Tips</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="disclaimer-section">
+    <div class="security-box">
+      <h4>1. Keep Your Software Updated</h4>
+      <p>
+        Ransomware attacks were a major events of 2017 for both businesses and consumers.<br /><br />
+        One of the most important cyber security tips to prevent ransomware attacks is patching your outdated software.<br />
+        This applies to both: your operating system and your apps. <br />
+        Updating your software removes critical vulnerabilities that hackers use to access your devices.<br />
+      </p>
+    </div>
+
+    <div class="security-box">
+      <h4>2. Use Anti-Virus Protection & Firewall</h4>
+      <p>
+        Anti-virus protection software has been the most prevalent solution to fight malicious online attacks.<br /><br />
+        Anti-virus software blocks malware and other malicious viruses from entering your device and compromising your data.<br />
+        Use anti-virus software from trusted vendors and only run one anti-virus tool on your device.<br /><br />
+        Using a firewall is also important when defending your data against malicious attacks.<br /><br />
+        A firewall helps screen out hackers, viruses, and other malicious activity that occurs over the Internet and determines what traffic is allowed to enter your device.<br />
+        Both your computer and your router should have a firewall engaged.
+      </p>
+    </div>
+
+    <div class="security-box">
+      <h4>3. Use Strong Passwords & Use a Password Management Tool</h4>
+      <p>
+        We cannot stress this enough: strong passwords are extremely important for your online security.<br /><br />
+        Don’t use the same password twice and/or on multiple accounts.<br />
+        The password should contain upper case and lower case letters, numbers, and special character symbols like @,!+?.<br />
+        Never leave a password written down or your password hint out in the open or make it publicly available for hackers to see. <br />
+        Change your passwords at least once per year.
+      </p>
+    </div>
+
+    <div class="security-box">
+      <h4>4. Use Two-Factor or Multi-Factor Authentication</h4>
+      <p>
+        Two-factor or multi-factor authentication is a service that adds additional layers of security
+        to the standard password method of online identification.<br />
+        Without two-factor authentication, you would normally enter a username and password.
+        But, with two-factor, you would be prompted to enter one
+        additional authentication method such as a Personal Identification Code,
+        another password or even fingerprint.<br />
+        With multi-factor authentication, you would be prompted to enter more than
+        two additional authentication methods after entering your username and password.<br /><br />
+      </p>
+
+    </div>
+
+    <div class="google-auth">
+      <img src="img/Authy-Logo.png" alt="authy"/>
+      <p>
+        For two-factor authentication, we recommend using Authy.<br />
+        Two-Factor authenticator by Twilio.
+      </p>
+      <a href="https://authy.com/" class="btn">To Authy.com<i class="fas fa-chevron-right"></i></a>
+    </div>
+
+    <div class="security-box">
+      <h4>5. Learn about Phishing Scams</h4>
+      <p>
+        In a phishing scheme attempt, the attacker poses as someone or something the sender
+        is not to trick the recipient into divulging credentials, clicking a malicious
+        link, or opening an attachment that infects the user’s system with malware, trojan,
+        or zero-day vulnerability exploit.<br /><br />
+        90% of ransomware attacks originate from phishing attempts.<br /><br />
+        Stay cautious.<br />
+        Don’t open email from people you don’t know.<br />
+        Know which links are safe and which are not – hover over a link to discover where it directs to. <br />
+        Be suspicious of the emails sent to you in general – look and see where it came from and if there are grammatical errors. <br />
+        Malicious links can come from friends who have been infected too.<br />
+      </p>
+    </div>
+
+    <div class="security-box">
+      <h4>6. Protect Your Sensitive Personal Identifiable Information (PII)</h4>
+      <p>
+        Personal Identifiable Information (PII) is any information that can be used by a cybercriminal to identify or locate an individual.<br />
+        PII includes information such as name, address, phone numbers, data of birth, Social Security Number, IP address, location details, or any other physical or digital identity data. <br /><br />
+        In the new world of social media, you should be very cautious about the information you include online. It is recommended that you only show the very minimum about yourself on social media.<br />
+        Adding your home address, birthdate, or any other PII information will dramatically increase your risk of a security breach.<br />
+        Hackers can and will use this information against you.
+      </p>
+    </div>
+
+    <div class="security-box">
+      <h4>7. Use Your Mobile Devices Securely</h4>
+      <p>
+        According to McAfee Labs, your mobile device is now a target to more than 1.5 million new incidents of mobile malware.<br />
+        Here is how you can improve your mobile device's security:<br />
+        1. Create a secure mobile passcode.<br />
+        2. Install apps only from trusted sources.<br />
+        3. Keep your mobile device updated – hackers use vulnerabilities in unpatched operating systems, so update your operating system regularly.<br />
+        4. Avoid sending PII or sensitive information over text message or email. <br />
+        5. Perform regular mobile backups using iCloud or Enabling Backup & Sync from Android.<br />
+      </p>
+    </div>
+
+    <div class="security-box">
+      <h4>8. Backup Your Data Regularly</h4>
+      <p>
+        While backing up your data, adhere to a simple "3-2-1" backup rule:<br />
+        Keep three copies of your data on two different types of media (local and external hard drive) and one copy in an off-site location (cloud storage).<br /><br />
+        If you become a victim of ransomware or malware, the only way to restore your data is to erase your systems and restore with a recently performed backup.<br />
+      </p>
+    </div>
+
+    <div class="security-box">
+      <h4>9. Don’t Use Public Wi-Fi</h4>
+      <p>
+        Don’t use a public Wi-Fi without using a Virtual Private Network (VPN).<br />
+        By using a VPN, the traffic between your device and the VPN server is encrypted.<br />
+        This means it’s much more difficult for a cybercriminal to obtain access to your data on your device.<br />
+        Use your cell network if you don’t have a VPN.<br />
+      </p>
+    </div>
+
+    <div class="security-box">
+      <h4>10. Review Your Online Accounts & Credit Reports Regularly for Changes</h4>
+      <p>
+        It is more important than ever for consumers to safeguard their online accounts and monitor their credit reports.<br />
+        A credit freeze is the most effective way for you to protect your personal credit information from cyber criminals right now. <br />
+        Essentially, it allows you to lock your credit and use a personal identification number (PIN) that only you will know.<br />
+        You can then use this PIN when you need to apply for credit.<br />
+      </p>
+    </div>
+
+    <a href="index.html#tips" class="btn back"><i class="fas fa-chevron-left"></i>Back</a>
+  </div>
+
+</section>
+
+<!-- footer -->
+<footer>
+  <div class="footer-content">
+      <div class="footer-logo footer-box">
+        <div class="footer-logo-text"><a href="#"><span>Cypher</span>Lock</a></div>
+        <p>Created by: Sarif Design 2021.</p>
+        <p>Hosted by: Heroku.com</p>
+      </div>
+      <div class="footer-nav footer-box">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="security.html">Online Security Tips</a></li>
+          <li><a href="#strength">Tester</a></li>
+        </ul>
+      </div>
+      <div class="footer-social footer-box">
+        <ul>
+          <li>
+            <a href="https://github.com/SJuras"><i class="fab fa-github fa-2x"></i>GitHub</a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-facebook fa-2x"></i>Facebook</a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram fa-2x"></i>Instagram</a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i>Twitter</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-data footer-box">
+        <p>Copyright &copy; CypherLock 2021.</p>
+        <p><i class="fas fa-envelope"></i>sarifwebdesign@gmail.com</p>
+      </div>
+    </div>
+</footer>
+<!-- footer END -->
+
+</body>
+</html>
